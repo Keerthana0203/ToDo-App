@@ -28,7 +28,7 @@ const Login = () => {
   });
 
   return (
-    <Container maxWidth="xs" sx={{ mt: 8, mb: 4 , p: 4, borderRadius: 3, boxShadow: 4 ,border: '1px solid rgb(44, 172, 232)',marginLeft: '500px',background:'linear-gradient(to right,rgb(218, 99, 137),rgb(167, 105, 188))'}}>
+    <Container maxWidth="xs" sx={{ mt: 8, mb: 4 , p: 4, borderRadius: 3, boxShadow: 4 ,border: '1px solid rgb(221, 108, 226)',marginLeft: '530px', background:'linear-gradient(to right,rgb(218, 99, 137),rgb(167, 105, 188))'}}>
       <Typography variant="h5" gutterBottom sx={{ mb: 2,textAlign: 'center' ,color: 'black'}}>
         Login
       </Typography>

@@ -35,7 +35,7 @@ const Dashboard = () => {
         border: "1px solid #ccc",
         backgroundColor: "white",
         padding: 4,
-        marginLeft: "400px",
+        marginLeft: "350px",
       }}
     >
       <Box
@@ -44,7 +44,7 @@ const Dashboard = () => {
         alignItems="center"
         my={4}
       >
-        <Typography variant="h4" sx={{ color: "black" }}>
+        <Typography variant="h4" sx={{ color: "#fb6f92" }}>
           To-Do List
         </Typography>
         <Button
@@ -69,7 +69,7 @@ const Dashboard = () => {
       <TodoForm tasks={tasks} updateTasks={setTasks} />
 
       <Box my={4}>
-        <Typography variant="h5" gutterBottom sx={{color:"#3d348b", textAlign: 'center'}}>
+        <Typography variant="h5" gutterBottom sx={{color:"#9d4edd", textAlign: 'center'}}>
           Your Tasks
         </Typography>
         <TodoList tasks={tasks} updateTasks={setTasks} />
